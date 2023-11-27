@@ -1,4 +1,4 @@
-// Base Parameters
+
 var renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 
@@ -24,7 +24,7 @@ var city = new THREE.Object3D();
 var smoke = new THREE.Object3D();
 var town = new THREE.Object3D();
 var createCarPos = true;
-var uSpeed = 0.0025;
+var uSpeed = 0.001;
 
 var setcolor = 0X9933ff;
 scene.background = new THREE.Color(setcolor);
